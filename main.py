@@ -13,8 +13,6 @@ base_url = "http://asilmedia.org/"
 
 
 
-# salom
-
 
 @app.get("/multfilmlar/{page_number}", response_class=JSONResponse)
 async def get_multik(page_number: int):
